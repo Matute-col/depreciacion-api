@@ -41,8 +41,6 @@ src/
 │       └── static/
 🧪 Sample Endpoint
 http
-Copiar
-Editar
 POST /api/assets
 {
   "name": "Laptop Dell",
@@ -50,15 +48,11 @@ POST /api/assets
   "usefulLifeYears": 5
 }
 http
-Copiar
-Editar
 GET /api/assets/depreciation/{id}
 Returns yearly depreciation breakdown.
 
 🔧 How to Run Locally
 bash
-Copiar
-Editar
 # 1. Clone the repository
 git clone https://github.com/Matute-col/depreciacion-api.git
 
